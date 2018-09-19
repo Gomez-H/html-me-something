@@ -1,6 +1,10 @@
 p {
     text-align: center;
-}
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    }
 
 .center {
     text-align: center;
@@ -12,18 +16,27 @@ p {
 }
 
 img{
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     align-content: center;
 }
-
-
 
 .hero-image{
     background-image: url("./images/gray-bk-image.jpg");
     background-size: cover;
+    padding: 50px;
+    margin: 10px;
 }
 
 #main-title{
     background-color: #aa0c00;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
 }
